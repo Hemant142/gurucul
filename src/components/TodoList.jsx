@@ -25,18 +25,21 @@ const TodoList = () => {
       completed: false,
     };
     setTodos([...todos, newTodo]);
+    localStorage.setItem('todos', JSON.stringify([...todos, newTodo])); // Update local storage
   };
 
   const deleteTodo = (id) => {
-    setTodos(todos.filter((todo) => todo.id !== id));
+    const updatedTodos = todos.filter((todo) => todo.id !== id);
+    setTodos(updatedTodos);
+    localStorage.setItem('todos', JSON.stringify(updatedTodos)); // Update local storage
   };
 
   const toggleComplete = (id) => {
-    setTodos(
-      todos.map((todo) =>
-        todo.id === id ? { ...todo, completed: !todo.completed } : todo
-      )
+    const updatedTodos = todos.map((todo) =>
+      todo.id === id ? { ...todo, completed: !todo.completed } : todo
     );
+    setTodos(updatedTodos);
+    localStorage.setItem('todos', JSON.stringify(updatedTodos)); // Update local storage
   };
 
   return (
