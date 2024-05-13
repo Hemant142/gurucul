@@ -64,7 +64,7 @@ const AddTodoForm = ({ addTodo }) => {
               p={2}
             >
               <Button colorScheme="purple">
-                <IoAdd size={20} />
+                {/* <IoAdd size={20} /> */}
                 Add
               </Button>
             </motion.button>
