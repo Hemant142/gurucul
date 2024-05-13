@@ -2,8 +2,7 @@
 
 # Preview
 
-
-<video width="100%" height="auto" autoplay loop muted src="https://github.com/Hemant142/gurucul/assets/121333203/aa0d500a-a405-4204-9b3f-751243980572"  type="video/mp4" >
+<video width="100%" height="auto" autoplay loop muted src="https://github.com/Hemant142/gurucul/assets/121333203/ad3b2068-1839-4c21-b628-5b419c01fc82"  type="video/mp4" >
   
 </video>
 
