@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Flex, Input, Button } from '@chakra-ui/react';
+import { Flex, Input, Button, Text } from '@chakra-ui/react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { IoAdd } from 'react-icons/io5';
 
@@ -22,6 +22,9 @@ const AddTodoForm = ({ addTodo }) => {
 
   return (
     <AnimatePresence>
+       <Text fontSize="2xl" fontWeight="bold" mb={4} color="white">
+          My Todo List
+        </Text>
       {isVisible && (
         <motion.div
           initial={{ opacity: 0 }}
@@ -62,6 +65,7 @@ const AddTodoForm = ({ addTodo }) => {
             >
               <Button colorScheme="purple">
                 <IoAdd size={20} />
+                Add
               </Button>
             </motion.button>
           </Flex>
