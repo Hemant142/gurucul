@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# GURUCUL
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Deployed Link
+ [Live](https://gurucul.vercel.app/)
+ 
+# Video Link
+  [Video](https://drive.google.com/file/d/1eGwokyElrmqMY9GE8JM9nYWqsQc4VXSJ/view?usp=sharing)
+  
+# Frontend
 
-## Available Scripts
+React.js | Chakra UI | Javascript 
 
-In the project directory, you can run:
 
-### `npm start`
+# Installation and Setup
+1. Clone the repository:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```bash
+https://github.com/Hemant142/gurucul` 
+```
+install the dependencies
+```
+npm install
+```
+run project
+```
+npm run start
+```
+# Functionality
+- Add Todo: Users can add new todo items by typing into the input field and clicking the "Add" button.
+- Delete Todo: Each todo item has a delete button (trash icon) that allows users to remove the todo from the list.
+- Toggle Todo Completion:  Users can mark a todo item as completed by clicking on the checkbox next to it. Clicking again will mark it as incomplete.
+- Local Storage Persistence: Local Storage Persistence
+- Animation: When a todo item is added or removed from the list, it animates into view or out of view using the Framer Motion library.
+- Responsive Design: The application is designed to work well on different screen sizes, adjusting the layout and styling accordingly.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+# ScreenShots  For Tablets
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Home Page
+<img width="363" alt="HomePageTablet" src="https://github.com/Hemant142/gurucul/assets/121333203/14a0c5be-7735-4814-a6ba-f290cf229576">
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## TODO 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img width="383" alt="TabletTodo" src="https://github.com/Hemant142/gurucul/assets/121333203/da316799-fed6-4f02-b659-b20ba3fba30a">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+# ScreenShots  For Mobile
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Home
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<img width="295" alt="HomePageMobile" src="https://github.com/Hemant142/gurucul/assets/121333203/e1ade4f8-3b71-466c-ae29-ce10768e2d0d">
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Todo A
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img width="298" alt="MobileTodo" src="https://github.com/Hemant142/gurucul/assets/121333203/60c7f94a-4790-46a6-ad8a-6958a859ad08">
