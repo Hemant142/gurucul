@@ -2,6 +2,7 @@
 
 # Preview
 
+
 <video width="100%" height="auto" autoplay loop muted src="https://github.com/Hemant142/gurucul/assets/121333203/aa0d500a-a405-4204-9b3f-751243980572"  type="video/mp4" >
   
 </video>
@@ -47,9 +48,7 @@ npm run start
 
 
 ## TODO 
-
-<img width="383" alt="TabletTodo" src="https://github.com/Hemant142/gurucul/assets/121333203/da316799-fed6-4f02-b659-b20ba3fba30a">
-
+<img width="388" alt="TabletTodo" src="https://github.com/Hemant142/gurucul/assets/121333203/ef5144ce-b0a6-41e6-8bd3-806e3ae5c418">
 
 # ScreenShots  For Mobile
 
@@ -58,7 +57,7 @@ npm run start
 <img width="295" alt="HomePageMobile" src="https://github.com/Hemant142/gurucul/assets/121333203/e1ade4f8-3b71-466c-ae29-ce10768e2d0d">
 
 
-## Todo A
+## Todo 
 
+<img width="287" alt="MobileTodo" src="https://github.com/Hemant142/gurucul/assets/121333203/1f947254-80f2-4d8a-a0c8-ef072b6ad9dd">
 
-<img width="298" alt="MobileTodo" src="https://github.com/Hemant142/gurucul/assets/121333203/60c7f94a-4790-46a6-ad8a-6958a859ad08">
