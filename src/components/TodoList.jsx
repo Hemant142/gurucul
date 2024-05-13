@@ -1,8 +1,24 @@
 import React, { useState, useEffect } from 'react';
-import { VStack } from '@chakra-ui/react';
+import { VStack, Box, Text, ChakraProvider, extendTheme } from '@chakra-ui/react';
 import { AnimatePresence, motion } from 'framer-motion';
 import TodoItem from './TodoItem';
 import AddTodoForm from './AddTodoForm';
+
+// Define custom theme
+const customTheme = extendTheme({
+  colors: {
+    primary: {
+      500: "#6f48eb",
+    },
+    secondary: {
+      500: "#2ebe55",
+    },
+  },
+  fonts: {
+    body: "Roboto, sans-serif",
+    heading: "Roboto, sans-serif",
+  },
+});
 
 const TodoList = () => {
   const [todos, setTodos] = useState([]);
@@ -68,4 +84,17 @@ const TodoList = () => {
   );
 };
 
-export default TodoList;
+const TodoApp = () => {
+  return (
+    <ChakraProvider theme={customTheme}>
+      <Box p={8}>
+        <Text fontSize="2xl" fontWeight="bold" mb={4}>
+          My Todo List
+        </Text>
+        <TodoList />
+      </Box>
+    </ChakraProvider>
+  );
+};
+
+export default TodoApp;

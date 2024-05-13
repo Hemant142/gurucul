@@ -5,7 +5,7 @@ import { MdDelete } from 'react-icons/md';
 const TodoItem = ({ todo, deleteTodo, toggleComplete }) => {
   return (
     <Flex
-    width={"100%"}
+      width="100%"
       align="center"
       justify="space-between"
       bg={todo.completed ? '#f1f1f1' : 'white'}
