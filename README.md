@@ -3,8 +3,12 @@
 # Preview
 
 
-<video width="100%" height="auto" autoplay loop muted>
-  <source src="https://github.com/Hemant142/gurucul/assets/121333203/a62d6040-aaa7-41c5-a8a2-3cbb0bef4a2e" type="video/mp4">
+
+
+
+
+<video width="100%" height="auto" autoplay loop muted src="https://github.com/Hemant142/gurucul/assets/121333203/aa0d500a-a405-4204-9b3f-751243980572"  type="video/mp4" >
+  
   Your browser does not support the video tag.
 </video>
 
